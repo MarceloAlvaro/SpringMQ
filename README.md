@@ -53,6 +53,8 @@ https://developer.ibm.com/technologies/java/tutorials/mq-jms-application-develop
 
 Para conectar no meu MQ Cloud:
 
+  set MQSERVER=CLOUD.ADMIN.SVRCONN/TCP/zzzqm-510a.qm.us-south.mq.appdomain.cloud(30907)
+  
   runmqsc -c -u alexandre -w 60 ZZZQM
 
   Pass (apiKey): o1pVkgFCf7DxiDjQDlZZdAej4f6fPwWszCOJ0Zb5ZI20 
