@@ -37,7 +37,7 @@ https://developer.ibm.com/technologies/java/tutorials/mq-jms-application-develop
    java -jar .\target\SpringMQ-0.0.1-SNAPSHOT.jar
 
 
-# Os códigos de gravacao e leitura estão no arquivo
+# Os códigos de gravaçãoo e leitura estão no arquivo
 
     ZzzmqSpringBoot
 
@@ -50,11 +50,15 @@ https://developer.ibm.com/technologies/java/tutorials/mq-jms-application-develop
 =====================================
 
 Para conectar no meu MQ Cloud:
+
   runmqsc -c -u alexandre -w 60 ZZZQM
+
   Pass (apiKey): o1pVkgFCf7DxiDjQDlZZdAej4f6fPwWszCOJ0Zb5ZI20 
 
   E administrar como um Mq local:
+
    display qlocal(*) 
+
    ...
 
 =====================================
