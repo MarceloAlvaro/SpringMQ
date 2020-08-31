@@ -3,9 +3,9 @@
 ### Site Source
 https://developer.ibm.com/technologies/java/tutorials/mq-jms-application-development-with-spring-boot/
 
-============================================
+=====================================
 Montando o ambiente (estacao de trabalho)
-============================================
+=====================================
 O projeto sample está no Git:
  https://github.com/alexandrezanetti/SpringMQ
  Obs.: já te coloquei no projeto
@@ -31,9 +31,9 @@ Os códigos de gravacao e leitura estão no arquivo
       @GetMapping("MQCloud/Put")
       @GetMapping("MQCloud/Get")
 
-============================================
+=====================================
 Testando conexão com MQ Cloud
-============================================
+=====================================
 Para conectar no meu MQ Cloud:
   runmqsc -c -u alexandre -w 60 ZZZQM
   Pass (apiKey): o1pVkgFCf7DxiDjQDlZZdAej4f6fPwWszCOJ0Zb5ZI20 
@@ -42,9 +42,9 @@ Para conectar no meu MQ Cloud:
    display qlocal(*) 
    ...
 
-============================================
+=====================================
 Gravando e lendo mensagens do MQCloud
-============================================
+=====================================
 Para usar:
    Abrir um CMD para PUT: 
      curl localhost:9200/MQCloud/Put
