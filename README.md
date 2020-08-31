@@ -34,6 +34,8 @@ https://developer.ibm.com/technologies/java/tutorials/mq-jms-application-develop
 
 # Para colocar a app no ar (deixar rodando, pronta para chamadas):
 
+   #ABRIR OUTRA CONSOLE e executar o comando abaixo:
+
    java -jar .\target\SpringMQ-0.0.1-SNAPSHOT.jar
 
 
@@ -67,12 +69,12 @@ Para conectar no meu MQ Cloud:
 
 Para usar:
 
-   Abrir um CMD para PUT: 
+   Abrir um NOVO console (CMD) para PUT: 
 
      curl localhost:9200/MQCloud/Put
 
 
-   Abrir um CMD para GET: 
+    Abrir um NOVO console (CMD) para GET: 
 
      curl localhost:9200/MQCloud/Get
 
