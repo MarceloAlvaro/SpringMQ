@@ -5,7 +5,7 @@
 https://developer.ibm.com/technologies/java/tutorials/mq-jms-application-development-with-spring-boot/
 
 =====================================
-# Montando o ambiente (estacao de trabalho)
+# Montando o ambiente (estação de trabalho)
 =====================================
 
 # O projeto sample está no Git:
